@@ -407,6 +407,14 @@
       "amount": 10000,
       "note": "comment",
       "methodId": 2
+    },
+    {
+      "id": 37,
+      "date": "2021-03-08",
+      "purchaseId": 3,
+      "amount": 1000,
+      "note": "comment",
+      "methodId": 2
     }
   ],
   "purchases": [
