@@ -1,0 +1,17 @@
+{
+  "name": "acr-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "start",
+    "start": "node server.js"
+  },
+  "author": "magabiev",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.10.4",
+    "heroku": "^7.50.0",
+    "json-server": "^0.16.3"
+  }
+}

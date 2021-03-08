@@ -1,0 +1,702 @@
+{
+  "admins": [
+    {
+      "id": 1,
+      "login": "admin",
+      "password": "admin",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "firstName": "Ахмад",
+      "lastName": "Цугаев",
+      "surName": "Якубович",
+      "countryCode": "+7",
+      "phone": "9894567654",
+      "city": "Грозный",
+      "address": "ул.Трошева, 7"
+    },
+    {
+      "id": 2,
+      "firstName": "Магомед",
+      "lastName": "Эбиев",
+      "surName": "Харонович",
+      "countryCode": "+7",
+      "phone": "9958004307",
+      "city": "Грозный",
+      "address": "ул.Мира, 7"
+    },
+    {
+      "id": 3,
+      "firstName": "Максим",
+      "lastName": "Алексеев",
+      "surName": "Сергеевич",
+      "countryCode": "+7",
+      "phone": "9289075643",
+      "city": "Москва",
+      "address": "ул.Никольская, 5"
+    },
+    {
+      "id": 4,
+      "firstName": "Владимир",
+      "lastName": "Сергеев",
+      "surName": "Максимович",
+      "countryCode": "+7",
+      "phone": "9876575434",
+      "city": "Москва",
+      "address": "ул.Никольская, 9"
+    },
+    {
+      "id": 5,
+      "firstName": "Глеб",
+      "lastName": "Максимов",
+      "surName": "Игоревич",
+      "countryCode": "+7",
+      "phone": "9387654534",
+      "city": "Москва",
+      "address": "ул.Тверская, 2"
+    },
+    {
+      "id": 6,
+      "firstName": "Владимир",
+      "lastName": "Семенов",
+      "surName": "Александрович",
+      "countryCode": "+7",
+      "phone": "9885664576",
+      "city": "Москва",
+      "address": "ул.Моховая 6"
+    },
+    {
+      "id": 7,
+      "firstName": "Дмитрий",
+      "lastName": "Лебедев",
+      "surName": "Никитич",
+      "countryCode": "+7",
+      "phone": "9664567667",
+      "city": "Москва",
+      "address": "ул.Ильинка 8"
+    },
+    {
+      "id": 8,
+      "firstName": "Роман",
+      "lastName": "Николаев",
+      "surName": "Дмитриевич",
+      "countryCode": "+7",
+      "phone": "9675664534",
+      "city": "Москва",
+      "address": "ул.Маросейка 5"
+    },
+    {
+      "id": 9,
+      "firstName": "Геннадий",
+      "lastName": "Михайлов",
+      "surName": "Никитич",
+      "countryCode": "+7",
+      "phone": "9657856545",
+      "city": "Москва",
+      "address": "ул.Тверская 3"
+    },
+    {
+      "id": 10,
+      "firstName": "Петр",
+      "lastName": "Павлов",
+      "surName": "Сергеевич",
+      "countryCode": "+7",
+      "phone": "9896775645",
+      "city": "Москва",
+      "address": "ул.Воздвиженка 2"
+    }
+  ],
+  "paymentMethods": [
+    {
+      "id": 1,
+      "name": "Наличные"
+    },
+    {
+      "id": 2,
+      "name": "Сбербанк"
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "date": "2019-01-01",
+      "purchaseId": 1,
+      "amount": 10000,
+      "note": "comment",
+      "methodId": 1
+    },
+    {
+      "id": 2,
+      "date": "2019-10-15",
+      "purchaseId": 2,
+      "amount": 11000,
+      "note": "comment",
+      "methodId": 1
+    },
+    {
+      "id": 3,
+      "date": "2020-09-11",
+      "purchaseId": 3,
+      "amount": 3000,
+      "note": "comment",
+      "methodId": 1
+    },
+    {
+      "id": 4,
+      "date": "2020-09-23",
+      "purchaseId": 4,
+      "amount": 1000,
+      "note": "comment",
+      "methodId": 2
+    },
+    {
+      "id": 5,
+      "date": "2019-01-20",
+      "purchaseId": 5,
+      "amount": 1000,
+      "note": "comment",
+      "methodId": 1
+    },
+    {
+      "id": 6,
+      "date": "2019-01-20",
+      "purchaseId": 6,
+      "amount": 3000,
+      "note": "comment",
+      "methodId": 2
+    },
+    {
+      "id": 7,
+      "date": "2020-10-21",
+      "purchaseId": 7,
+      "amount": 7000,
+      "note": "comment",
+      "methodId": 1
+    },
+    {
+      "id": 8,
+      "date": "2019-03-10",
+      "purchaseId": 8,
+      "amount": 3000,
+      "note": "comment",
+      "methodId": 2
+    },
+    {
+      "id": 9,
+      "date": "2019-03-11",
+      "purchaseId": 9,
+      "amount": 2000,
+      "note": "comment",
+      "methodId": 1
+    },
+    {
+      "id": 10,
+      "date": "2020-10-20",
+      "purchaseId": 10,
+      "amount": 3000,
+      "note": "comment",
+      "methodId": 2
+    },
+    {
+      "id": 11,
+      "date": "2019-02-20",
+      "purchaseId": 11,
+      "amount": 5000,
+      "note": "comment",
+      "methodId": 2
+    },
+    {
+      "id": 12,
+      "date": "2019-03-20",
+      "purchaseId": 12,
+      "amount": 2000,
+      "note": "comment",
+      "methodId": 1
+    },
+    {
+      "id": 13,
+      "date": "2020-10-21",
+      "purchaseId": 13,
+      "amount": 3000,
+      "note": "comment",
+      "methodId": 1
+    },
+    {
+      "id": 14,
+      "date": "2019-04-21",
+      "purchaseId": 14,
+      "amount": 6000,
+      "note": "comment",
+      "methodId": 1
+    },
+    {
+      "id": 15,
+      "date": "2019-04-22",
+      "purchaseId": 15,
+      "amount": 5000,
+      "note": "comment",
+      "methodId": 1
+    },
+    {
+      "id": 16,
+      "date": "2019-04-24",
+      "purchaseId": 16,
+      "amount": 3000,
+      "note": "comment",
+      "methodId": 1
+    },
+    {
+      "id": 17,
+      "date": "2020-09-30",
+      "purchaseId": 17,
+      "amount": 8000,
+      "note": "comment",
+      "methodId": 2
+    },
+    {
+      "id": 18,
+      "date": "2019-04-20",
+      "purchaseId": 18,
+      "amount": 10000,
+      "note": "comment",
+      "methodId": 1
+    },
+    {
+      "id": 19,
+      "date": "2019-04-11",
+      "purchaseId": 19,
+      "amount": 8000,
+      "note": "comment",
+      "methodId": 2
+    },
+    {
+      "id": 20,
+      "date": "2020-10-12",
+      "purchaseId": 20,
+      "amount": 9000,
+      "note": "comment",
+      "methodId": 1
+    },
+    {
+      "id": 21,
+      "date": "2019-05-01",
+      "purchaseId": 21,
+      "amount": 9000,
+      "note": "comment",
+      "methodId": 2
+    },
+    {
+      "id": 22,
+      "date": "2019-05-03",
+      "purchaseId": 22,
+      "amount": 11000,
+      "note": "comment",
+      "methodId": 2
+    },
+    {
+      "id": 23,
+      "date": "2019-05-19",
+      "purchaseId": 23,
+      "amount": 2000,
+      "note": "comment",
+      "methodId": 1
+    },
+    {
+      "id": 24,
+      "date": "2020-09-21",
+      "purchaseId": 24,
+      "amount": 7000,
+      "note": "comment",
+      "methodId": 1
+    },
+    {
+      "id": 25,
+      "date": "2019-07-11",
+      "purchaseId": 25,
+      "amount": 10000,
+      "note": "comment",
+      "methodId": 2
+    },
+    {
+      "id": 26,
+      "date": "2019-07-13",
+      "purchaseId": 26,
+      "amount": 6000,
+      "note": "comment",
+      "methodId": 2
+    },
+    {
+      "id": 27,
+      "date": "2020-09-24",
+      "purchaseId": 27,
+      "amount": 2000,
+      "note": "comment",
+      "methodId": 1
+    },
+    {
+      "id": 28,
+      "date": "2019-08-11",
+      "purchaseId": 28,
+      "amount": 10000,
+      "note": "comment",
+      "methodId": 2
+    },
+    {
+      "id": 29,
+      "date": "2019-08-11",
+      "purchaseId": 29,
+      "amount": 10000,
+      "note": "comment",
+      "methodId": 2
+    },
+    {
+      "id": 30,
+      "date": "2019-08-12",
+      "purchaseId": 30,
+      "amount": 11000,
+      "note": "comment",
+      "methodId": 1
+    },
+    {
+      "id": 31,
+      "date": "2020-10-14",
+      "purchaseId": 31,
+      "amount": 12000,
+      "note": "comment",
+      "methodId": 2
+    },
+    {
+      "id": 32,
+      "date": "2019-09-19",
+      "purchaseId": 32,
+      "amount": 3000,
+      "note": "comment",
+      "methodId": 1
+    },
+    {
+      "id": 33,
+      "date": "2019-09-20",
+      "purchaseId": 33,
+      "amount": 2000,
+      "note": "comment",
+      "methodId": 2
+    },
+    {
+      "id": 34,
+      "date": "2019-09-21",
+      "purchaseId": 34,
+      "amount": 20000,
+      "note": "comment",
+      "methodId": 1
+    },
+    {
+      "id": 35,
+      "date": "2020-08-22",
+      "purchaseId": 35,
+      "amount": 10000,
+      "note": "comment",
+      "methodId": 2
+    },
+    {
+      "id": 36,
+      "date": "2020-11-15",
+      "purchaseId": 1,
+      "amount": 10000,
+      "note": "comment",
+      "methodId": 2
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "name": "AirPods Pro",
+      "clientId": 1,
+      "price": 19000,
+      "date": "2019-01-10",
+      "completed": true
+    },
+    {
+      "id": 2,
+      "name": "AirPods",
+      "clientId": 1,
+      "price": 10000,
+      "date": "2019-01-11",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "name": "Iphone 11 pro",
+      "clientId": 1,
+      "price": 60000,
+      "date": "2019-01-21",
+      "completed": true
+    },
+    {
+      "id": 4,
+      "name": "Iphone 8+",
+      "clientId": 2,
+      "price": 30000,
+      "date": "2019-01-22",
+      "completed": false
+    },
+    {
+      "id": 5,
+      "name": "MacBook Pro 13",
+      "clientId": 2,
+      "price": 119000,
+      "date": "2019-01-20",
+      "completed": true
+    },
+    {
+      "id": 6,
+      "name": "MacBook Pro 15",
+      "clientId": 2,
+      "price": 139000,
+      "date": "2019-01-22",
+      "completed": true
+    },
+    {
+      "id": 7,
+      "name": "AirPods Pro",
+      "clientId": 2,
+      "price": 20000,
+      "date": "2019-01-23",
+      "completed": false
+    },
+    {
+      "id": 8,
+      "name": "Iphone X",
+      "clientId": 3,
+      "price": 40000,
+      "date": "2019-02-20",
+      "completed": true
+    },
+    {
+      "id": 9,
+      "name": "Apple Watch Series 6",
+      "clientId": 3,
+      "price": 36000,
+      "date": "2019-02-22",
+      "completed": true
+    },
+    {
+      "id": 10,
+      "name": "AirPods",
+      "clientId": 3,
+      "price": 10000,
+      "date": "2019-02-23",
+      "completed": false
+    },
+    {
+      "id": 11,
+      "name": "Iphone 8+",
+      "clientId": 4,
+      "price": 3000,
+      "date": "2019-03-05",
+      "completed": true
+    },
+    {
+      "id": 12,
+      "name": "Apple Watch Series 6",
+      "clientId": 4,
+      "price": 36000,
+      "date": "2019-03-08",
+      "completed": true
+    },
+    {
+      "id": 13,
+      "name": "AirPods Pro",
+      "clientId": 4,
+      "price": 20000,
+      "date": "2019-03-10",
+      "completed": true
+    },
+    {
+      "id": 14,
+      "name": "Ipad Pro",
+      "clientId": 5,
+      "price": 80000,
+      "date": "2019-04-21",
+      "completed": true
+    },
+    {
+      "id": 15,
+      "name": "Ipad Air",
+      "clientId": 5,
+      "price": 50000,
+      "date": "2019-04-22",
+      "completed": false
+    },
+    {
+      "id": 16,
+      "name": "AirPods",
+      "clientId": 5,
+      "price": 10000,
+      "date": "2019-04-22",
+      "completed": true
+    },
+    {
+      "id": 17,
+      "name": "Iphone 8+",
+      "clientId": 5,
+      "price": 30000,
+      "date": "2019-04-23",
+      "completed": true
+    },
+    {
+      "id": 18,
+      "name": "Apple Watch 6 series",
+      "clientId": 6,
+      "price": 36000,
+      "date": "2019-04-20",
+      "completed": true
+    },
+    {
+      "id": 19,
+      "name": "Ipad Pro",
+      "clientId": 6,
+      "price": 80000,
+      "date": "2019-04-21",
+      "completed": false
+    },
+    {
+      "id": 20,
+      "name": "Iphone 11 Pro",
+      "clientId": 6,
+      "price": 60000,
+      "date": "2019-04-22",
+      "completed": true
+    },
+    {
+      "id": 21,
+      "name": "AirPods",
+      "clientId": 7,
+      "price": 10000,
+      "date": "2019-05-01",
+      "completed": true
+    },
+    {
+      "id": 22,
+      "name": "Iphone 11 Pro",
+      "clientId": 7,
+      "price": 60000,
+      "date": "2019-05-05",
+      "completed": true
+    },
+    {
+      "id": 23,
+      "name": "Ipad Air",
+      "clientId": 7,
+      "price": 50000,
+      "date": "2019-05-11",
+      "completed": false
+    },
+    {
+      "id": 24,
+      "name": "Apple Watch 6 series",
+      "clientId": 8,
+      "price": 36000,
+      "date": "2019-07-11",
+      "completed": false
+    },
+    {
+      "id": 25,
+      "name": "MacBook Pro 13",
+      "clientId": 8,
+      "price": 119000,
+      "date": "2019-07-15",
+      "completed": true
+    },
+    {
+      "id": 26,
+      "name": "AirPods Pro",
+      "clientId": 8,
+      "price": 20000,
+      "date": "2019-07-22",
+      "completed": true
+    },
+    {
+      "id": 27,
+      "name": "Ipad Pro",
+      "clientId": 9,
+      "price": 80000,
+      "date": "2019-08-21",
+      "completed": true
+    },
+    {
+      "id": 28,
+      "name": "MacBook Pro",
+      "clientId": 9,
+      "price": 119000,
+      "date": "2019-08-22",
+      "completed": false
+    },
+    {
+      "id": 29,
+      "name": "AirPods",
+      "clientId": 9,
+      "price": 10000,
+      "date": "2019-08-25",
+      "completed": false
+    },
+    {
+      "id": 30,
+      "name": "AirPods Pro",
+      "clientId": 9,
+      "price": 20000,
+      "date": "2019-08-28",
+      "completed": true
+    },
+    {
+      "id": 31,
+      "name": "Apple Watch SE",
+      "clientId": 10,
+      "price": 30000,
+      "date": "2019-09-21",
+      "completed": true
+    },
+    {
+      "id": 32,
+      "name": "Apple Watch 6 series",
+      "clientId": 10,
+      "price": 36000,
+      "date": "2019-09-21",
+      "completed": false
+    },
+    {
+      "id": 33,
+      "name": "Iphone 11 Pro",
+      "clientId": 10,
+      "price": 60000,
+      "date": "2019-09-23",
+      "completed": true
+    },
+    {
+      "id": 34,
+      "name": "Ipad Air",
+      "clientId": 10,
+      "price": 50000,
+      "date": "2019-09-25",
+      "completed": true
+    },
+    {
+      "id": 35,
+      "name": "MacBook Pro 13",
+      "clientId": 10,
+      "price": 119000,
+      "date": "2019-09-28",
+      "completed": false
+    },
+    {
+      "id": 36,
+      "name": "Iphone",
+      "clientId": 2,
+      "price": 10000,
+      "date": "2020-11-24",
+      "completed": false
+    }
+  ]
+}
