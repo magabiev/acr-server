@@ -3,7 +3,7 @@
     {
       "id": 1,
       "login": "admin",
-      "password": "admin",
+      "password": "12345",
       "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
     }
   ],
