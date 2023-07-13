@@ -1,9 +1,11 @@
 const dayjs = require("dayjs");
+const cors = require("cors");
 const relativeTime = require("dayjs/plugin/relativeTime");
 dayjs.extend(relativeTime);
 
 const jsonServer = require("json-server");
 const server = jsonServer.create();
+server.use(cors());
 
 const path = require("path");
 const router = jsonServer.router(path.join(__dirname, "db.json"));
